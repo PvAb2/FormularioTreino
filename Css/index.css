@@ -1,0 +1,15 @@
+@import url(base.css);
+footer .linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .item{
+    width: 400px;
+}
+footer .item img{
+    width:50px;
+    height: auto;
+}
