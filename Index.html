@@ -8,6 +8,9 @@
     <title>Menu Vertical</title>
 </head>
 <body>
+    <div class="menu-resp">
+        <button onclick="abrir_menu()"><i class="bi bi-list"></i></button>
+    </div>
     <header>
         <div class="logo">
             <img src="imagens/mcdonalds-logo.webp" alt="Logo da mc donalds cor de fundo vermelha e m centralizado em amarelo">
@@ -17,7 +20,8 @@
         </div>
     </header>
     <main>
-        <nav class="menu">
+        <nav class="menu mostrar" id="menu">
+            <button onclick="abrir_menu()"><i class="bi bi-x-circle-fill"></i></button>
             <ul>
                 <li><a href="Index.html">Home</a></li>
                 <li><a href="historia.html">História</a></li>
@@ -38,18 +42,19 @@
             <div class="item">
                 Sobre
             </div>
-            <div class="item">
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-                <a href="">Twitter</a>
-                <a href="">Whatssapp</a>
+            <div class="item rede-social">
+                <a class="facebook"href="adf"><i class="bi bi-facebook"></i></a>
+                <a class="instagram"  href="adfad"><i class="bi bi-instagram"></i></a>
+                <a class="twitter" href="dafd"><i class="bi bi-twitter"></i></a>
+                <a class="whatsapp" href="adfadf"><i class="bi bi-whatsapp"></i></a>
             </div>
         </div>
         <p>&copy;2024 Nome da Empresa</p>
         <div class="item">
             <img src="Imagens/mcdonalds-logo.webp" alt="Logo da mc donalds cor de fundo vermelha e m centralizado em amarelo">
-            <p>v. Colocar nº 0000 <br>Bairro Industrial<br> Cacoal - RO</p>
+            <p>Av. Colocar nº 0000 <br>Bairro Industrial<br> Cacoal - RO</p>
         </div>
     </footer>
+    <script src="JS/base.js"></script>
 </body>
 </html>
