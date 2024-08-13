@@ -3,7 +3,7 @@
 :root{
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-size: 16px;
-    color: #eee;
+    color: rgb(202, 66, 66);
     --font-secundaria: Roboto , sans-serif;
     --cor-principal: rgb(36, 29, 29);
 }
